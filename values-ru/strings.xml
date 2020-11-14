@@ -28,7 +28,7 @@
     <string name="device_state_connected_disconnected_last_time">Время последнего соединения и его разрыва</string>
     <string name="device_alarm">Следующий будильник</string>
 
-    <string name="device_search">Haylou search</string>
+    <string name="device_search">Поиск Haylou</string>
     <string name="device_setting">Настройки Haylou</string>
 
     <string name="device_mac_address">MAC адрес</string>
@@ -53,20 +53,20 @@
     <string name="mi_band_setting_menu_menu">Меню</string>
 
     <string name="mi_band_setting_auth_mi_fit">Взаимодействие с %1$s</string> <!-- Haylou Fit-->
-    <string name="mi_band_setting_auth_mi_fit_hint">Hello Haylou требуется приложение %1$s на устройстве. Сначала подключите %2$s к %1$s, потом пользуйтесь Hello Haylou. Выберите этот пункт для использования вместе с %1$s.</string>
+    <string name="mi_band_setting_auth_mi_fit_hint">Для работы Hello Haylou требуется приложение %1$s, установленное на устройстве. Сначала подключите %2$s к %1$s, а потом пользуйтесь Hello Haylou. Выберите этот пункт для совместного использования с %1$s.</string>
     <string name="mi_band_setting_auth_standalone">Автономно</string>
-    <string name="mi_band_setting_auth_standalone_hint">%1$s не нужен для работы Hello Haylou. После соединения удалите %1$s или отвяжите браслет от него. Для восстановления привязки к %1$s вам нужно заново привязать %2$s в %1$s. If you use the unpair function, the data on the smartwatch will be deleted.  The %2$s screen must be turned on while performing operations.</string>
+    <string name="mi_band_setting_auth_standalone_hint">Для работы Hello Haylou, приложение %1$s не нужнщ. После соединения %1$s можно удалить или отвязать браслет от него. Для восстановления работы с %1$s вам нужно заново привязать %2$s к %1$s. Еслм вы используете функцию отвязки устройства, тогда все данные на часах будут удалены. Экран %2$s должен быть включен во время выполнения операций.</string>
 
     <string name="mi_band_setting_auth_key">Ключ аутентификации</string>
     <string name="mi_band_setting_auth_request">Key request</string>
     <string name="mi_band_setting_auth_pair">Подключить</string>
-    <string name="mi_band_setting_auth_unpair">Unpair</string>
+    <string name="mi_band_setting_auth_unpair">Отключить</string>
 
-    <string name="message_auth_request">It is paired, if you do not know the key, use the unpair</string>
+    <string name="message_auth_request">Уже подключено, если вы не знаете ключ, нажмите кнопку отключить</string>
 
-    <string name="message_mi_band_setting_auth_press_band_button">Нажмите кнопку %1$s для соединения</string> <!-- %1$s = Mi Band 3, Amazfit Bip ... -->
-    <string name="message_mi_band_setting_auth_success">%1$s успешно привязан</string>
-    <string name="message_mi_band_setting_auth_fail">Привязка %1$s не удалась</string>
+    <string name="message_mi_band_setting_auth_press_band_button">Нажмите кнопку на %1$s для подключения</string> <!-- %1$s = Mi Band 3, Amazfit Bip ... -->
+    <string name="message_mi_band_setting_auth_success">%1$s успешно подключен</string>
+    <string name="message_mi_band_setting_auth_fail">Не удалось подключиться к %1$s</string>
     <string name="message_mi_band_setting_auth_key_invalid">Не верный ключ аутентификации</string>
 
     <string name="pref_disconnected">Отключение</string>
@@ -75,7 +75,7 @@
     <string name="mi_band_setting_language">Язык</string>
     <string name="mi_band_setting_time_24h">24-часовой формат</string>
     <string name="mi_band_setting_lift_wrist">Поворот запястья</string>
-    <string name="mi_band_setting_screen_on_duration">Screen on duration</string>
+    <string name="mi_band_setting_screen_on_duration">Продолжительность включения экрана</string>
     <string name="mi_band_setting_idle_alert">Оповещение о бездействии</string>
     <string name="mi_band_setting_idle_alert_time">Время бездействия</string>
     <string name="mi_band_setting_idle_alert_dnd">Не уведомлять во время отдыха (12:00-14:00)</string>
@@ -129,7 +129,7 @@
     <string name="message_discovering_mi_band">Поиск браслета (это может занять около минуты) &#8230;</string>
     <string name="message_discovered_mi_band">%1$s подключён</string>
     <string name="message_discovered_no_mi_band">не подключён</string>
-    <string name="message_discovered_not_found_mi_band">Если браслет не обнаружен, включите: Haylou Sport/Уведомления/Видимость или свяжите через настройки Bluetooth устройства</string>
+    <string name="message_discovered_not_found_mi_band">Если браслет не обнаружен, включите: Haylou Sport / Уведомления / Видимость или свяжите через настройки Bluetooth устройства</string>
     <string name="message_enable_notification_listener_access">Разрешите доступ к уведомлениям</string>
     <string name="message_enable_notification_listener_access_4_4">Разрешите доступ к уведомлениям</string>
     <string name="message_open_settings">Настройки</string>
@@ -139,7 +139,7 @@
 
     <string name="message_app_chooser_no_selected">Выберете приложение</string>
 
-    <string name="message_free_counter">Up to 1 setting can be used in normal mode</string>
+    <string name="message_free_counter">В обычном режиме можно использовать только 1 настройку</string>
 
     <string name="message_notification_free_groups">Максимум %1$,d групп</string>
     <string name="message_notification_free_app">Up to 1 application can be selected in normal mode</string>
